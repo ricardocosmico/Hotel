@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
-package hotel;
+package com.mycompany.hotel;
 
 /**
  *
@@ -20,8 +20,7 @@ public abstract class Pessoa {
         this.telefone = telefone;
     }
 
-    // os getters retornam o valor do atributo correspondente 
-    // os setters permite modificar/atualizar as informaçoes presentes
+    // Getters e Setters
     public String getId() { return id; }
     public void setId(String id) { this.id = id; }
 
@@ -32,5 +31,4 @@ public abstract class Pessoa {
     public void setTelefone(String telefone) { this.telefone = telefone; }
 }
     
-
 
