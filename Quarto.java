@@ -6,7 +6,7 @@ package com.mycompany.hotel;
 
 /**
  *
- * @author vinicius
+ * @author vini
  */
 
 public class Quarto {
